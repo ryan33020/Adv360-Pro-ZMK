@@ -4,7 +4,7 @@ name: Build
 
 jobs:
   build:
-    runs-on: [linux, "${{ ubuntu-latest }}"]
+    runs-on: ubuntu-latest
     container:
       image: zmkfirmware/zmk-build-arm:stable
     name: Build
